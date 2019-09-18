@@ -1,0 +1,28 @@
+.video-container {
+    height: 260px;
+    width:400px;
+    position: relative;
+}
+
+.video-container iframe {
+    height:100%;
+    width:100%;
+}
+
+.video-container .over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute; 
+    top:0px; 
+    left:0px;
+    right:0;
+    bottom:0; 
+    z-index:2;
+    font-size:2.4em;
+    font-family: 'Heebo', sans-serif;
+}
+
+.video-container .over h1 {
+    margin:0;
+}

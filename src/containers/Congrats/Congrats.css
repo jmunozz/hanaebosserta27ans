@@ -1,0 +1,27 @@
+.congrats-container {
+    display:flex;
+    font-size:25px;
+    z-index:100;
+}
+
+.congrats-container h1 {
+    font-size: 3em;
+}
+
+.congrats-container p {
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+}
+
+.congrats-container  img {
+    animation: spin infinite 20s linear;
+    height: 80px;
+    align-self: center;
+    margin-bottom:30px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

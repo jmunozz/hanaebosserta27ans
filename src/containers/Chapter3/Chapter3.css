@@ -1,0 +1,21 @@
+.target-container {
+    position: relative;
+    flex-direction: column;
+}
+
+.target-container img {
+    max-height: 330px;
+}
+
+.target-container p {
+    text-align: center;
+}
+
+.target {
+    position: absolute;
+    width: 45px;
+    height:60px;
+    z-index: 100;
+    right:45px;
+    bottom:110px;
+}

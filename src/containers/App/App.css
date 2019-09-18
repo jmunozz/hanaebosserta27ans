@@ -1,0 +1,113 @@
+.App {
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background: url("http://www.script-tutorials.com/demos/360/images/stars.png");
+  background-color: black;
+}
+
+body {
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+.container {
+  display:flex;
+  padding:10px 20px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+form {
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+input[type="text"] {
+  appearance: none;
+  background-color: none;
+  border: 1px solid red;
+  line-height: 0;
+  font-size: 17px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: red;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+  max-width:300px;
+
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background: red;
+  color: white;
+}
+
+
+button {
+  margin-top: 35px;
+  background-color: white;
+  border: 1px solid red;
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border-radius: 60px;
+  color: red;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  text-align:center;
+}
+
+#ovnis {
+  position: absolute;
+  bottom:0;
+  height:80%;
+}
+
+.app-ovnis {
+  display:flex;
+  justify-content: center;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
